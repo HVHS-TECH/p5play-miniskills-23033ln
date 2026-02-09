@@ -11,16 +11,16 @@ function setup() {
 	console.log("setup: ");
      cnv = new Canvas(1920, 1080);
 	  rect = new Sprite(0, 0, 100, 400);
-      rect = color = '4A0101';
+      rect = color = 'red';
 	  cir = new Sprite(100, 100, 100);
-	  cir.color = '4A0101';
+	  cir.color = 'yellow';
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-    background ('yellow')
+    background ('grey')
 
 }
 
