@@ -9,7 +9,13 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
-
+     cnv = new Canvas(1920, 1080);
+	  move =  new Sprite(100, 100, 100, 100, '600');
+      move.color = '4A0101';
+      move.rotationSpeed = 2;
+      move.vel.x = 2;
+	  cir = new Sprite(100, 100, 100);
+	  cir.color = '4A0101';
 }
 	
 /*******************************************************/
