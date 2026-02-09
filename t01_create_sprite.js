@@ -9,12 +9,12 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
-     cnv = new Canvas(1000, 1000);
+     cnv = new Canvas(3000, 3000);
 	  rect = new Sprite(0, 0, 100, 400);
     rect = color = '4A0101';
-	cir =  new Sprite(x, y, w, h, 'd');
+	cir =  new Sprite(100, 100, 100, 100, '200');
 
-cir.color = 'ccc';
+cir.color = '4A0101';
 
 cir.rotationSpeed = 2;
 
