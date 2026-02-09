@@ -12,21 +12,16 @@ function setup() {
      cnv = new Canvas(1920, 1080);
 	  rect = new Sprite(0, 0, 100, 400);
       rect = color = '4A0101';
-	  move =  new Sprite(100, 100, 100, 100, '600');
-      move.color = '4A0101';
-      move.rotationSpeed = 2;
-      move.vel.x = 2;
 	  cir = new Sprite(100, 100, 100);
 	  cir.color = '4A0101';
-
-	  background('FF00D0')
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-    
+    background ('yellow')
+
 }
 
 /*******************************************************/
