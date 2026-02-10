@@ -9,7 +9,16 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
+cnv = new Canvas(1920, 1080);
 
+world.gravity.y = 10;
+
+triangle = new Sprite(100, 100, 80, 90, 'd');
+
+triangle.color = 'blue';
+
+triangle.rotationSpeed = 2;
+platform_1 = new Sprite(1000, 500, 500, 100, 'k');
 }
 	
 /*******************************************************/
