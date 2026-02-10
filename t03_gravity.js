@@ -10,12 +10,9 @@
 function setup() {
 	console.log("setup: ");
 cnv = new Canvas(1920, 1080);
-
 world.gravity.y = 10;
 cir = new Sprite(100, 10, 80, 90, '100');
-
 cir.color = 'blue';
-
 cir.rotationSpeed = 2;
 }
 	
