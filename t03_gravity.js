@@ -8,18 +8,18 @@
 // setup()
 /*******************************************************/
 function setup() {
-	console.log("setup: ");
+console.log("setup: ");
 cnv = new Canvas(1920, 1080);
-world.gravity.y = 10;
-cir = new Sprite(100, 10, 80, 90, '10');
-cir.color = 'blue';
-cir.rotationSpeed = 2;
+tri = new Sprite(100, 10, 80, 90, '10');
+tri.color = 'blue';
+tri.rotationSpeed = 2;
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
+	world.gravity.y = 10;
 	background ('teal')
 }
 
