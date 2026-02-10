@@ -13,7 +13,7 @@ cnv = new Canvas(1920, 1080);
 
 world.gravity.y = 10;
 
-triangle = new Sprite(100, 100, 80, 90, '90');
+triangle = new Sprite(100, 100, 80, 90, 'd');
 
 triangle.color = 'blue';
 
