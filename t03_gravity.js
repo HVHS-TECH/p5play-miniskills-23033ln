@@ -10,8 +10,14 @@
 function setup() {
 console.log("setup: ");
 cnv = new Canvas(1920, 1080);
+
+world.gravity.y = 10;
+
 tri = new Sprite(100, 10, 80, 90, '10');
+
 tri.color = 'blue';
+tri.vel.x = 2;
+
 tri.rotationSpeed = 2;
 }
 	
@@ -19,7 +25,6 @@ tri.rotationSpeed = 2;
 // draw()
 /*******************************************************/
 function draw() {
-	world.gravity.y = 10;
 	background ('teal')
 }
 
