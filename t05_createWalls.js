@@ -10,7 +10,7 @@
 function setup() {
 	console.log("setup: ");
 	cnv = new Canvas(800, 800);
-wallLH  = new Sprite(0, height/2, 8, height, 'k');
+wallLH  = new Sprite(8, height/2, 8, height, 'k');
 
 wallLH.color = 'black';
 
