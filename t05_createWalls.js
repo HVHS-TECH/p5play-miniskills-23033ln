@@ -14,7 +14,7 @@ wallLH  = new Sprite(0, height/2, 8, height, 'k');
 
 wallLH.color = 'black';
 
-wallRH  = new Sprite(0, 0, 100, 100000, 'k');
+wallRH  = new Sprite(0, 0, 100, 150, 'k');
 
 wallTop = new Sprite(1920, y, w, h, 'k');
 
