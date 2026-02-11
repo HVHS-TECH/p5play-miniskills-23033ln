@@ -12,13 +12,18 @@ function setup() {
 	cnv = new Canvas(800, 800);
 wallLH  = new Sprite(8, height/2, 8, height, 'k');
 
-wallLH.color = 'black';
+wallLH.color = 'yellow';
 
-wallRH  = new Sprite(0, 0, 100, 150, 'k');
+wallRH  = new Sprite(0, 0, 100, 800, 'k');
 
-wallTop = new Sprite(1920, y, w, h, 'k');
+wallTop = new Sprite(800, 0, 100, 800, 'k');
 
 wallBot = new Sprite(x, y, w, h, 'k');
+
+
+
+
+
 
 
 ball_1 = new Sprite(width/2, height/2, 50, 'd');
