@@ -39,7 +39,7 @@ ball_1.drag = 0;
 cube  = new Sprite(10, 10, 10, 10, 'd');
 
 
-for (i = 0; i < 500; i++) {
+for (i = 0; i < 2000; i++) {
 
   alien = new Sprite(500, 500, 20, 20);
 
