@@ -9,14 +9,24 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
+	cnv = new Canvas(1000, 1000);
+    function preload() {
 
+  imgBG   = loadImage('../assets/images/space.jpg');
+
+  imgFace = loadImage('../assets/images/face.png');
+
+}
+ball_1.image = (imgFace);
+
+imgFace.resize(50, 50)
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-	
+    background(imgBG); 
 }
 
 /*******************************************************/

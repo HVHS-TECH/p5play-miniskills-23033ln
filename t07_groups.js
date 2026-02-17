@@ -32,28 +32,20 @@ ball_1.color = 'cyan';
 
 
 ball_1.bounciness = 1;
-ball_1.friction = 0;
+ball_1.friction = 1;
 
-ball_1.drag = 0;
+ball_1.drag = 1;
 
 cube  = new Sprite(10, 10, 10, 10, 'd');
 
 alienGroup = new Group();
-
-for (i = 0; i < 100; i++) {
-
-  alien = new Sprite(10, 10, 10, 10);
-
-  alien.vel.x =  random(2, 998);
-
-  alien.vel.y = random(2, 998);
-
+for (i = 0; i < 500; i++) {
+  alien = new Sprite(500, 500, 10, 10);
+  alien.vel.x =  random(2, 4);
+  alien.vel.y = random(2, 4);
   alien.bounciness = 1;
-
   alien.friction = 0;
-
   alienGroup.add(alien);
-
 }
 }
 	
