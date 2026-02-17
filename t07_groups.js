@@ -38,10 +38,11 @@ ball_1.drag = 0;
 
 cube  = new Sprite(10, 10, 10, 10, 'd');
 
+alienGroup = new Group();
 
-for (i = 0; i < 500; i++) {
+for (i = 0; i < 100; i++) {
 
-  alien = new Sprite(100, 100, 100, 100);
+  alien = new Sprite(10, 10, 10, 10);
 
   alien.vel.x =  random(2, 998);
 
@@ -51,6 +52,7 @@ for (i = 0; i < 500; i++) {
 
   alien.friction = 0;
 
+  alienGroup.add(alien);
 
 }
 }
