@@ -13,13 +13,6 @@ function setup() {
 	rect = new Sprite(height/2, width/2, 100, 800, 'd');
     rect.color = 'blue';
     rect.rotationSpeed = 2;
-	rect.moveTowards(mouseX, mouseY, p);
-
-if (mouse.presses()) {
-
-rect.moveTo(xPos, yPos, n);
-
-}
 }
 	
 /*******************************************************/
@@ -27,6 +20,10 @@ rect.moveTo(xPos, yPos, n);
 /*******************************************************/
 function draw() {
 	background ('teal')
+	rect.moveTowards(mouseX, mouseY, 1);
+if (mouse.presses()) {
+rect.moveTo(xPos, yPos, 1);
+}
 }
 
 /*******************************************************/
