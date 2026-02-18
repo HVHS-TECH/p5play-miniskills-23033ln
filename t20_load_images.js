@@ -16,9 +16,9 @@ imgFace.resize(50, 50)
 }
 function preload() {
 
-  imgBG   = loadImage('../assets/images/space.jfif');
+ // imgBG   = loadImage('../assets/images/download.jpg');
 
-  imgFace = loadImage('../assets/images/face.png');
+  //imgFace = loadImage('../assets/images/face.png');
 
 }
 /*******************************************************/
