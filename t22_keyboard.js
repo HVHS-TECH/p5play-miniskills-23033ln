@@ -12,30 +12,7 @@ function setup() {
 cnv = new Canvas(1000, 1000);
 	rect = new Sprite(height/2, width/2, 100, 800, 'd');
     rect.color = 'blue';
-    rect.rotationSpeed = 2;
-
-if (kb.pressing('left')) {
-    // Set sprite's velocity to the left
-
-
-}
-
-else if (kb.pressing ('right')) {
-
-   	    
-
-};
-
-if (kb.released('left')) {
-    // Set sprite's velocity to zero
-
-	
-}
-if (kb.released('right')) {
-
-    
-
-}
+    rect.rotationSpeed = 0;
 }
 	
 /*******************************************************/
@@ -43,9 +20,34 @@ if (kb.released('right')) {
 /*******************************************************/
 function draw() {
 		background ('teal')
-	rect.moveTowards(mouseX, mouseY, 1);
-if (mouse.presses()) {
-rect.moveTo(xPos, yPos, 1);
+if (kb.pressing('left')) {
+    // Set sprite's velocity to the left
+rect.vel.x = -1;
+}
+else if (kb.pressing ('right')) {
+rect.vel.x = 1
+};
+if (kb.released('left')) {
+    // Set sprite's velocity to zero
+rect.vel.x = 0
+}
+if (kb.released('right')) {
+rect.vel.x = 0
+}
+
+if (kb.pressing('up')) {
+    // Set sprite's velocity to the left
+rect.vel.y = -1;
+}
+else if (kb.pressing ('down')) {
+rect.vel.y = 1
+};
+if (kb.released('up')) {
+    // Set sprite's velocity to zero
+rect.vel.y = 0
+}
+if (kb.released('down')) {
+rect.vel.y = 0
 }
 }
 
