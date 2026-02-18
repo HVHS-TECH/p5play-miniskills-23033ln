@@ -10,15 +10,17 @@
 function setup() {
 	console.log("setup: ");
 	cnv = new Canvas(1000, 1000);
-ball_1.image = (imgFace);
-
+   ball_1 = new Sprite(width/2, height/2, 50, 'd');
+   ball_1.bounciness = 1;
+   ball_1.friction   = 0;
+   ball_1.image = (imgFace);
 imgFace.resize(50, 50)
 }
 function preload() {
 
- // imgBG   = loadImage('../assets/images/download.jpg');
+  imgBG   = loadImage('../assets/images/loadimage/download.jpg');
 
-  //imgFace = loadImage('../assets/images/face.png');
+  imgFace = loadImage('../assets/images/loadimage/face.png');
 
 }
 /*******************************************************/
