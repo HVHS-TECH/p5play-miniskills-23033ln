@@ -18,7 +18,7 @@ cnv = new Canvas(1000, 1000);
 function draw() {
     background ('grey')
 text("Hello World", 50, 50) 
- var name = "Mr Bob";
+var name = "Mr Bob";
 text("Hello "+name, 50, 100);
 }
 
